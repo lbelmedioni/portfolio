@@ -1,0 +1,167 @@
+.App{
+    width:100vw ;
+    height: 100vh;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+    gap: 100px;
+}
+h1{
+    font-weight: 900;
+    font-size: 3rem;
+}
+p{
+    font-weight: 500;
+}
+.logo{
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+h2{
+    font-size: 1.5rem;
+}
+nav{
+    width: 100vw;
+    height: 50px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 200px 1fr 150px 150px 150px 150px;
+    font-weight: 900;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+a{
+    color: rgb(123, 255, 224);
+}
+nav :hover{
+    background: linear-gradient(45deg,rgb(156, 255, 209), rgb(139, 247, 216));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.active{
+    grid-column: 3/4;
+    background: linear-gradient(45deg,rgb(148, 255, 225),rgb(151, 243, 186));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.section{
+    width: 60vw;
+    height: 70vh;
+    padding: 20px;
+    
+}
+
+.Home{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+    margin-top: 100px;
+}
+button{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(20, 24, 85);
+    margin: 20px;
+    margin-left: 0px;
+    color: rgb(142, 237, 205);
+    font-family: 'Poppins';
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: rgb(142, 237, 205);
+}
+.myservice{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.service img{
+    width: 60%;
+    padding: 3px;
+    border-radius: 100%;
+    background: linear-gradient(45deg,rgb(20, 20, 87),rgb(24, 24, 135));
+}
+.service{
+    display: grid;
+    place-items: center;
+    height: 40vh;
+    width:290px;
+    padding: 20px;
+    background-color: rgb(12, 12, 67);
+    transition: 0.5s;
+}
+.service:hover{
+    transform: scale(1.02);
+    background-color: transparent;
+    border: solid 2px rgb(13, 13, 94);
+}
+.websites{
+    border-radius: 10px 10px 10px 10px;
+    border-color: rgb(144, 248, 220);
+}
+.flutterApps{
+    border-radius: 10px 10px 10px 10px;
+    border-color: rgb(149, 245, 213);
+}
+.desktopApps{
+    border-radius: 10px 10px 10px 10px;
+    border-color: rgb(146, 244, 211);
+}
+.design{
+    border-radius: 10px 10px 10px 10px;
+    border-color: rgb(161, 247, 218);
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    gap: 20px; 
+    list-style: none;
+}
+.tool{
+    width: 50px;
+    height: 50px;
+    display: grid;
+    border-radius: 10px;
+    background-color: rgb(8, 19, 84);
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.4s;
+    
+}
+.tool img{
+      width: 100%;
+      padding: 3px;
+      background-color: rgb(6, 6, 44);
+      height: 100%;
+      border-radius: 10px;
+      
+}
+.tool:hover{
+    transform: scale(1.02);
+    background-color: transparent;
+    border: solid 2px rgb(13, 13, 94);
+}
+
+.flutter{
+    width: 45%;
+}
+footer{
+    display: grid;
+    place-items: center;
+    height: 100px;
+    width: 100vw;
+    background: linear-gradient(rgb(7, 7, 61)45%,rgb(4, 4, 27)23%,);
+    margin-left: -20px;
+    margin-bottom: -60px;
+}
+footer img {
+      width: 30px;
+      margin: 20px;
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
